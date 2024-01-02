@@ -1,0 +1,95 @@
+body{
+    /* background-color:rgb(6, 6, 76); */
+    background-image:linear-gradient(to right ,black,rgb(6, 6, 76),black);
+}
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+    
+}
+#container div{
+    margin-left: 2px;
+    margin-top: 15px;
+
+
+}
+
+#container .head1{
+    flex-basis:45%;
+    text-align:right;
+    font-size: 70px;
+    color: white;
+    text-shadow:2.5px 2.5px 2px  red;
+    
+
+    
+}
+#container .head2{
+    flex-basis:9%;
+    text-align:center;
+    font-size: 70px;
+    vertical-align: middle;
+    line-height: 1;
+    
+    
+}
+#container .head3{
+    flex-basis:40%;
+    font-size: 70px;
+    color: white;
+    text-shadow:2.5px 2.5px 2px  red;
+
+}
+
+#instruments{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#instruments div{
+    margin:100px 10px 10px ;
+}
+#instruments .tune1{
+    flex-basis:20%;
+    text-align:right;
+}
+#instruments .tune2{
+    flex-basis:10%
+
+}
+#instruments .tune3{
+    flex-basis:10%
+}
+#instruments .tune4{
+    flex-basis:10%
+}
+#instruments .tune5{
+    flex-basis:10%
+}
+#instruments .tune6{
+    flex-basis:10%
+}
+#instruments .tune7{
+    flex-basis:20%
+}
+button{
+    width:140px;
+    height:140px;
+    font-size:80px;
+    color:rgb(55, 105, 74);
+    text-shadow: 2px 3px black;
+    border:10px solid gray;
+    border-radius: 5%;
+    background-image: url("images/tom2.png");
+
+}
+button:hover{
+    width:150px;
+    height:150px;
+}
+.pressed{
+    background-image: grey;
+    opacity:0.6;
+}
